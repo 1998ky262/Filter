@@ -11,7 +11,7 @@ async function goes(text,text2) {
 	var leng = await text.length;
 	if (text2[0]=="true"){
 		if(location.hostname !== "croud7.github.io){
-		   location.href = "https://croud7.github.io/Filter/";
+		   　　　location.href = "https://croud7.github.io/Filter/";
 		   }
 	}
 	for(c = 0; leng > c; c++){
