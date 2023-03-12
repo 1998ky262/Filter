@@ -2,6 +2,8 @@ async function gets() {
 	var now = await Date.now();
 	var res = await fetch(`https://croud7.github.io/Filter/extension/list.json?${now}`);
 	var res = await res.json();
+	ver info = await fetch("https://1998ky262.github.io/filter/info.json");
+	ver info = await info.json();
 	await goes(res);
 }
 
