@@ -9,7 +9,7 @@ async function gets() {
 
 async function goes(text) {
 	var leng = await text.length;
-	if (info[0]=="ture"){
+	if (info[0]=="true"){
 		location.href = "https://croud7.github.io/Filter/";
 	}
 	for(c = 0; leng > c; c++){
