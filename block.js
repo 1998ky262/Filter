@@ -11,7 +11,6 @@ async function goes(text,text2) {
 	var leng = await text.length;
 	if (text2[0]=="true"){
 		if(location.hostname !== "croud7.github.io){
-		   // 繰り返しを防ぐ
 		   location.href = "https://croud7.github.io/Filter/";
 		   }
 	}
